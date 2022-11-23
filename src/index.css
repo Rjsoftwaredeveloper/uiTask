@@ -1,0 +1,136 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fff;
+  background: #fff;
+  font-family: Segoe UI, sans-serif;
+  font-weight: 500 !important;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  line-height: 0.9;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-weight: 500 !important;
+  margin: 0;
+  padding: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+Button {
+  background-color: #005981 !important;
+}
+
+label {
+  font-size: 1.5em !important;
+  color: black !important;
+  font-weight: 500 !important;
+  margin-bottom: 7px !important;
+}
+
+.mainSection {
+  padding: 40px;
+}
+
+.contentBox {
+  display: grid;
+  grid-gap: 50px;
+  grid-template-columns: 30% auto;
+  box-shadow: 10px 10px 20px 0 rgb(57 56 56 / 10%);
+  -webkit-box-shadow: 10px 10px 20px 0 rgb(57 56 56 / 10%);
+  -moz-box-shadow: 10px 10px 20px 0 rgba(57, 56, 56, .1);
+  padding: 35px;
+  border-radius: 15px;
+}
+
+.gap-50 {
+  gap: 50px;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.mt-40px {
+  margin-top: 40px !important;
+}
+
+.h-40 {
+  height: 40px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.align_center {
+  align-items: center;
+}
+
+.contactForm {
+  margin: 50px 0;
+}
+.textField label{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  /* identical to box height, or 29px */
+  /* Black */
+  color: #000000;
+}
+@media (max-width: 950px) {
+  .mainSection {
+    padding: 15px;
+  }
+
+  .contentBox {
+    grid-template-columns: auto;
+    padding: 0px;
+    grid-gap: 0;
+    gap: 0;
+    box-shadow: none;
+  }
+
+  .suscribeBtn button {
+    width: 100% !important;
+  }
+
+  .suscribeBox .textField {
+    gap: 15px;
+  }
+
+  .suscribeBox .itemField {
+    width: 100% !important;
+    margin: 30px 0 0 !important;
+  }
+
+  .suscribeBox {
+    padding: 20px 15px !important;
+  }
+
+  .contactForm {
+    margin: 20px 0;
+  }
+
+  .gap-50 {
+    gap: 15px;
+  }
+}
